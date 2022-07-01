@@ -9,6 +9,11 @@ body{
     width: 100%;
 }
 
+#catImg{
+    height: 80%;
+    width: auto;
+}
+
 .flex-container {
     display: flex;
     flex-direction: column;
@@ -41,7 +46,7 @@ body{
     height: 37px;
     margin-top: 23px;
     margin-bottom: 10px;
-    margin-left: 40px;
+    
     font-size: 19px;
     background-color: #122a57;
     color: #fff;
