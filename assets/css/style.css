@@ -18,11 +18,6 @@ body{
     align-items: center;
 }
 
-.boxLightTheme{
-    background-color: rgba(var(--d87,255,255,255),1);
-    border: 1px solid rgba(var(--b6a,219,219,219),1);
-}
-
 .boxWrapper{
     height: 360px; 
     display: flex;
@@ -32,11 +27,10 @@ body{
     width: 715px;
     padding: 16px;
     margin-top: 40px;  
+    background-color: rgba(var(--d87,255,255,255),1);
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
 }
-.btnColorLight{
-    background-color: #122a57;
-    color: #fff;
-}
+
 
 .button{
     text-align: center;
@@ -49,15 +43,14 @@ body{
     margin-bottom: 10px;
     margin-left: 40px;
     font-size: 19px;
+    background-color: #122a57;
+    color: #fff;
 }
 
 
 h3{
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-.textLightTheme{
     color: #122a57;
 }
 
